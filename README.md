@@ -66,7 +66,6 @@ wins more often but loses more per losing trade than it gains per winning trade.
 ## Limitations & Future Work
 - Transaction costs only partially accounted for
 - Single asset tested (SPY only)
-- FVG definition is one interpretation — ICT concepts are intentionally vague
 - Future: test on QQQ, BTC, bear market periods, different FVG parameters
 
 ## Disclaimer
