@@ -25,31 +25,41 @@ single day, these strategies sit in cash missing the majority of long-term gains
 
 ## Findings
 
+## Findings
+
 ### Finding #1 — SMA Crossover (Golden/Death Cross)
 The Golden/Death Cross strategy (50/200-day SMA) returned **48%** 
-over 2018-2024 versus **95.5%** for passive buy and hold. Essentially, 
-the strategy lost to doing nothing by nearly double. 
+over 2018-2024 versus **95.5%** for passive buy and hold.
 
-### Finding #2 — ICT Fair Value Gaps (Does the Signal truly predict what it claims?)
+### Finding #2 — ICT Fair Value Gaps (Predictive Power)
 Bullish FVG signals produced an average 5-day forward return of **0.066%** 
-versus **0.278%** on non-FVG days — showing no positive predictive edge. 
+versus **0.278%** on non-FVG days — showing no positive predictive edge.
 
-### Finding #3 — ICT Fair Value Gap Strategy (Backtest)
+### Finding #3 — ICT FVG Strategy (Backtest)
 The FVG trading strategy returned **25%** over 2014-2024 versus **211.3%** 
-for passive buy and hold — an underperformance of **186.4%**. 
+for passive buy and hold — an underperformance of **186.4%**.
+
+### Finding #4 — Risk-Adjusted Returns (Sharpe Ratio)
+Buy & Hold Sharpe: **0.737** vs FVG Strategy Sharpe: **0.320** — 
+passive investing wins on a risk-adjusted basis too.
+
+### Finding #5 — Maximum Drawdown
+FVG Strategy: **-18.5%** vs Buy & Hold: **-33.7%** — the only metric 
+where FVG shows an advantage, entirely due to being out of the market 88% of the time.
+
+### Finding #6 — Win Rate
+FVG win rate of **58.1%** sounds reasonable but is misleading without 
+context of win/loss size.
+
+### Finding #7 — Risk/Reward Analysis
+Average win: **1.090%** vs average loss: **-1.356%** — the strategy 
+wins more often but loses more per losing trade than it gains per winning trade.
 
 ---
 
 ## Tools Used
 - Python, pandas, numpy, matplotlib, yfinance
 - Jupyter Notebooks
-
----
-
-## Project Structure
-notebooks
-├── 02_backtest.ipynb        # SMA crossover baseline backtest
-└── 03_ict_signals.ipynb     # ICT Fair Value Gap signal detection
 
 ---
 
