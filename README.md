@@ -17,7 +17,7 @@ beat simply buying and holding an index fund?
 ---
 
 ## Key Insight
-Both strategies share the same fundamental weakness — they spend too much 
+Both strategies share the same fundamental weakness, they spend too much 
 time out of the market. While passive buy and hold compounds quietly every 
 single day, these strategies sit in cash missing the majority of long-term gains.
 
